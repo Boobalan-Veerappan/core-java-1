@@ -1,3 +1,4 @@
+package com.heraizen.cj.day1;
 
 public class add_series_7_terms {
 

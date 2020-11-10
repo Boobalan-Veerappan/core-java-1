@@ -1,3 +1,4 @@
+package com.heraizen.cj.day1;
 
 public class autoGenerate {
 
