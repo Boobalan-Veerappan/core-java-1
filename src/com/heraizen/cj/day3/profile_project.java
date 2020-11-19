@@ -11,7 +11,7 @@ class profile_list{
 	String Mobile_number;
 	int age;
 	String Email;
-	int Id;
+	int Id =100;
 	public profile_list(int Id,String name,String number,int age,String email)
 	{
 		this.Name = name;
@@ -36,6 +36,7 @@ public class profile_project {
 		profile_list p3 = new profile_list(1003,"guna","7810836808",10,"gunaseelan@gmail.com");
 		profile_list p4 = new profile_list(1004,"elavarasan","8667791470",220,"elavarasanm@gmail.com");
 		profile_list p5 = new profile_list(1005,"kavin kp","7200212302",20,"kavinkp@gmail.com");
+		p1.Id = 100000;
 		profile_list[] list= {p1,p2,p3,p4,p5};
 		profile_details pd =new profile_details();
 		pd.start(list);
